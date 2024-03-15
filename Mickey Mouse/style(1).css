@@ -1,0 +1,38 @@
+:root{
+   --color-dark:#4e4e4e;
+   --color-white:#fff;
+   --color-light:#ababab;
+   --color-purple:#5d15A5;
+
+
+}
+*{
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.Clock{
+
+   font-size: 150px;
+    gap: 50px;
+
+}
+.Clock span:not(:last-child):after{
+
+font-size: 150px;
+content:":"
+
+}
+
